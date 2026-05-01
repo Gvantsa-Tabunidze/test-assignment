@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": "56f2a0b4-5f6f-42b3-acbc-a961939ca279",
+      "title": "Company logo",
+      "image": {
+        "id": "979e4aaf-f47b-4a73-99d7-1c0ed4413a96",
+        "name": "erp logo1.jpg",
+        "url": "/uploads/709a9f58-a20b-4c8b-98b0-1bde18ca6dff.jpg",
+        "type": "image/jpeg",
+        "size": 45522,
+        "createdAt": "2026-05-01T10:37:09.542Z"
+      },
+      "createdAt": "2026-05-01T10:37:10.202Z"
+    },
+    {
+      "id": "0cad31c7-e56c-44d8-88bc-752cfc6e99f4",
+      "title": "Fruits salad",
+      "image": {
+        "id": "3bb19ef9-1ae1-4171-9ac8-5e2bbf5aed4e",
+        "name": "fresh fruits.jpg",
+        "url": "/uploads/585c34f2-1820-473c-b6bf-fc099b9d67db.webp",
+        "type": "image/jpeg",
+        "size": 3403626,
+        "createdAt": "2026-05-01T15:20:48.856Z"
+      },
+      "createdAt": "2026-05-01T15:20:48.867Z"
+    },
+    {
+      "id": "8fc5efd3-2413-4c76-b0d2-e0c7c5f33022",
+      "title": "Hazelnuts",
+      "image": {
+        "id": "21abd796-32af-490e-9525-faee39c48169",
+        "name": "nuts.jpg",
+        "url": "/uploads/70bc0631-8cc0-44bd-bdbf-be564c3f6a48.webp",
+        "type": "image/jpeg",
+        "size": 2648338,
+        "createdAt": "2026-05-01T15:23:16.891Z"
+      },
+      "createdAt": "2026-05-01T15:23:16.906Z"
+    },
+    {
+      "id": "cde14c4a-eaaa-4858-a038-77484d2af3d2",
+      "title": "Green Smoothie",
+      "image": {
+        "id": "9f962188-fe5f-45f8-980a-6e4a3d2de63a",
+        "name": "smoothie.jpg",
+        "url": "/uploads/d547793d-241b-4b3d-8486-397f03193f91.webp",
+        "type": "image/jpeg",
+        "size": 4182141,
+        "createdAt": "2026-05-01T15:30:53.830Z"
+      },
+      "createdAt": "2026-05-01T15:30:53.843Z"
+    },
+    {
+      "id": "667f9c35-fc6e-49a2-a428-b38ee493dec5",
+      "title": "Energy Bites",
+      "image": {
+        "id": "bc565a11-1eb7-461a-a815-d3b292885d26",
+        "name": "energy balls.jpg",
+        "url": "/uploads/15e6b149-7a6d-4be9-8e05-269ea6798a28.webp",
+        "type": "image/jpeg",
+        "size": 1135119,
+        "createdAt": "2026-05-01T15:32:16.796Z"
+      },
+      "createdAt": "2026-05-01T15:32:16.808Z"
+    },
+    {
+      "id": "c8bc76ca-1997-49a8-bdb0-66c601c691fe",
+      "title": "Greek Yogurt",
+      "image": {
+        "id": "4a44c068-83fa-4322-805f-01cc009ab1ea",
+        "name": "yugurt.jpg",
+        "url": "/uploads/85e60ea8-4f12-4a66-a7f2-0724fdb85231.webp",
+        "type": "image/jpeg",
+        "size": 1083318,
+        "createdAt": "2026-05-01T15:55:25.706Z"
+      },
+      "createdAt": "2026-05-01T15:55:25.722Z"
+    },
+    {
+      "id": "d4c1f307-df03-4f93-9857-9552eddc3488",
+      "title": "Green salad",
+      "image": {
+        "id": "4fe4f77c-f523-4757-a67f-e5dc05216c31",
+        "name": "avocado.jpg",
+        "url": "/uploads/a09a4280-548d-4874-af8a-dd930213d8e7.webp",
+        "type": "image/jpeg",
+        "size": 3696944,
+        "createdAt": "2026-05-01T16:13:40.232Z"
+      },
+      "createdAt": "2026-05-01T16:13:40.247Z"
+    }
+  ]
+}
