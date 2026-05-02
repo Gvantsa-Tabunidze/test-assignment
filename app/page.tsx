@@ -26,8 +26,6 @@ export default async function Home({ searchParams }: QueryProps) {
   const selectedProduct = params.product_id ? data.data.find((product:IProduct)=> product.id === params.product_id) : null
 
 
-  // if(!data) return <p>Loading . . . </p>
-
   return (
     <>
     <AppHeader />

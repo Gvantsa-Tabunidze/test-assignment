@@ -14,7 +14,7 @@ export default function Error({
       </h2>
 
       <p className="text-gray-500 mt-2">
-        We couldn’t load products right now.
+        We couldn't load products right now.
       </p>
 
       <button
