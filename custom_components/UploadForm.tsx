@@ -26,6 +26,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { useRef } from "react"
 import { X } from "lucide-react"
+import { toast } from "sonner"
 
 
 
@@ -69,13 +70,16 @@ const UploadForm = ({onClose}: {onClose: ()=> void}) => {
             fileInputRef.current.value = ''
         }
         router.refresh()
+        onClose()
+        toast.success('You\'ve added product successfully!', {
+            position: 'top-center'
+        })
 
         } catch (error) {
             console.log(error)
         }
     }
-
-    return (
+return (
 <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
     <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] z-10">
         <Card className="w-full max-w-sm">

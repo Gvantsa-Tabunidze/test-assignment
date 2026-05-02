@@ -13,14 +13,12 @@ async function addProduct({title, image} : AddProductParams){
         })
     return res.data
     } catch (error) {
-       if(error instanceof Error){
-        return error.message
-       }  else if(axios.isAxiosError(error)){
-        return error.response?.data.message
-       } else{
-        'An error has occured'
-       }
-    }
+  if (axios.isAxiosError(error)) {     
+    return error.response?.data.message
+  } else if (error instanceof Error) { 
+    return error.message
+  }
+}
 }
 
 export default addProduct

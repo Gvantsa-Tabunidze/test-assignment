@@ -103,6 +103,32 @@
         "createdAt": "2026-05-02T08:31:49.470Z"
       },
       "createdAt": "2026-05-02T08:31:49.485Z"
+    },
+    {
+      "id": "d9de3924-9866-4015-93af-3d1cc4e9c2d8",
+      "title": "Eggplant salad",
+      "image": {
+        "id": "abd9a6d9-1b64-4de3-9aac-ab96fdda0398",
+        "name": "eggplant.jpg",
+        "url": "/uploads/8df4b1b1-33aa-432d-921b-6b5e65261830.webp",
+        "type": "image/jpeg",
+        "size": 1299156,
+        "createdAt": "2026-05-02T14:45:14.419Z"
+      },
+      "createdAt": "2026-05-02T14:45:14.432Z"
+    },
+    {
+      "id": "c29d93eb-988f-42f1-b982-f75c0b27ca0c",
+      "title": "Roasted shrimps",
+      "image": {
+        "id": "92fe1843-c10d-43ff-8d49-2c55478d2d9a",
+        "name": "roasted shrimps.jpg",
+        "url": "/uploads/ba6ca3d9-492e-4b1e-8330-d6d2729d70aa.webp",
+        "type": "image/jpeg",
+        "size": 2651602,
+        "createdAt": "2026-05-02T14:49:09.658Z"
+      },
+      "createdAt": "2026-05-02T14:49:09.670Z"
     }
   ]
 }
