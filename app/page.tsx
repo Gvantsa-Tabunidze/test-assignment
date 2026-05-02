@@ -5,9 +5,12 @@ import UploadForm from "./components/UploadForm"
 import ProductCard from "./components/ProductCard"
 import SearchInput from "./components/SearchInput"
 import Pagination from "./components/Pagination"
+import AppHeader from "./components/AppHeader"
+import { IProduct, Product } from "@/lib/types"
+import ProductModal from "./components/ProductModal"
 
 type QueryProps = {
-   searchParams: Promise<{ page?: string; per_page?: string; search?: string }>
+   searchParams: Promise<{ page?: string; per_page?: string; search?: string, product_id?:string, product?: string}>
 }
 
 export default async function Home({ searchParams }: QueryProps) {
@@ -19,19 +22,19 @@ export default async function Home({ searchParams }: QueryProps) {
     search: params.search
   })
 
-  if(!data) return <p>Loading . . . </p>
+  const selectedProduct = params.product_id ? data.data.find((product:IProduct)=> product.id === params.product_id) : null
+
+
+  // if(!data) return <p>Loading . . . </p>
 
   return (
     <>
-      <div className="flex flex-col flex-1 items-center justify-center font-sans">
-        <UploadForm />
-      </div>
-      <div className="flex flex-col gap-4 w-full px-60 py-16">
-        <SearchInput />
-        <div>
-          <div className="grid grid-cols-4 gap-4">
-        {data.data?.map((item) => (
-          <ProductCard title={item.title} key={item.title} image={item.image} />
+    <AppHeader />
+      {selectedProduct && <ProductModal data={selectedProduct}/>}
+      <div className="flex flex-col w-full p-20">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
+        {data.data?.map((item:IProduct) => (
+          <ProductCard title={item.title} key={item.title} image={item.image} id={item.id} />
         ))}
       </div>
           <Pagination
@@ -39,8 +42,8 @@ export default async function Home({ searchParams }: QueryProps) {
             totalPages={data.metadata.totalPages}
             totalItems={data.metadata.totalItems}
           />
-        </div>
       </div>
+      
     </>
   )
 }

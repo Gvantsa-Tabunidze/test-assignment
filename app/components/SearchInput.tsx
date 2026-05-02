@@ -1,4 +1,6 @@
 'use client'
+
+import { Input } from '@/components/ui/input'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
@@ -27,12 +29,12 @@ const SearchInput = () => {
 
 
   return (
-    <div className='flex gap-2'>
-      <input
+    <div className="flex w-full max-w-3xl mx-auto gap-2">
+      <Input
         value={value}
         onChange={e => setValue(e.target.value)}
         placeholder="Search products..."
-        className="border p-2 flex-1"
+        className="w-full"
       />
     </div>
 

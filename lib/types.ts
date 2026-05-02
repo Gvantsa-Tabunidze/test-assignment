@@ -24,6 +24,7 @@ export type MediaFile = {
 //FrontEnd interfaces
 
 export interface IProduct {
+    id:string
     title: string
     image: IImage
 }

@@ -1,19 +1,6 @@
 {
   "products": [
     {
-      "id": "56f2a0b4-5f6f-42b3-acbc-a961939ca279",
-      "title": "Company logo",
-      "image": {
-        "id": "979e4aaf-f47b-4a73-99d7-1c0ed4413a96",
-        "name": "erp logo1.jpg",
-        "url": "/uploads/709a9f58-a20b-4c8b-98b0-1bde18ca6dff.jpg",
-        "type": "image/jpeg",
-        "size": 45522,
-        "createdAt": "2026-05-01T10:37:09.542Z"
-      },
-      "createdAt": "2026-05-01T10:37:10.202Z"
-    },
-    {
       "id": "0cad31c7-e56c-44d8-88bc-752cfc6e99f4",
       "title": "Fruits salad",
       "image": {
@@ -90,6 +77,32 @@
         "createdAt": "2026-05-01T16:13:40.232Z"
       },
       "createdAt": "2026-05-01T16:13:40.247Z"
+    },
+    {
+      "id": "fccbe828-407e-46b6-8c87-94289fced798",
+      "title": "Salad with nuts",
+      "image": {
+        "id": "84c292f9-edce-4f26-9aeb-313a7486fc5e",
+        "name": "mariana-medvedeva-fk6IiypMWss-unsplash.jpg",
+        "url": "/uploads/de9111b9-13ea-47d3-9108-9c0a97448073.webp",
+        "type": "image/jpeg",
+        "size": 3582512,
+        "createdAt": "2026-05-02T07:20:22.433Z"
+      },
+      "createdAt": "2026-05-02T07:20:22.448Z"
+    },
+    {
+      "id": "552d8607-c362-4b5b-ae3b-95283556879a",
+      "title": "Strawberry cake",
+      "image": {
+        "id": "015c1d65-a1e6-427a-a726-cf7b4ca04dbe",
+        "name": "strawberry.jpg",
+        "url": "/uploads/3ddd7711-0942-43ec-bc3a-a3f94c40f398.webp",
+        "type": "image/jpeg",
+        "size": 972781,
+        "createdAt": "2026-05-02T08:31:49.470Z"
+      },
+      "createdAt": "2026-05-02T08:31:49.485Z"
     }
   ]
 }
